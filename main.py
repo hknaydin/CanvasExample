@@ -22,7 +22,7 @@ def on_click():
 
 
 img2 = tk.PhotoImage(data="iVBORw0KGgoAAAANSUhEUgAAACMAAAAjAQMAAAAkFyEaAAAABlBMVEUAAADw0gCjrW2CAAAAI0lEQVQI12NgQAL2////byCFPPihHg9JqmkHGOrxkHj1IgEAZH9nDhQLxPMAAAAASUVORK5CYII=")
-img1 = tk.PhotoImage(file="/home/mavialp/PycharmProjects/ilhan_canvas/neig.png")
+img1 = tk.PhotoImage(file="neig.png")
 
 
 
