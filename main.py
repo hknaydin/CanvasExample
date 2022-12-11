@@ -3,14 +3,15 @@ from Tkconstants import BOTH
 from Tkconstants import HORIZONTAL, BOTTOM, X, VERTICAL, Y, BOTH, RIGHT, LEFT, ALL
 
 root = tk.Tk()
+root.title("Tkinter Canvas Example")
 root.geometry("800x800+200+200")
 root.resizable(width=False, height=False)
-root.title('Tkinter Widgets')
 count = 100
 
 def on_click():
     global  count
-    canvas.create_text(50, count, text="HELLO Ilhan gggggggggggggggggggggggggggggggggggggggggggggggggggg: " + str(count), fill="black", font=('Helvetica 15 bold'))
+    canvas.create_text(50, count, text="HELLO Ilhan gggggggggggggggggggggggggggggggggggggggg: " + str(count),
+                       fill="black", font=('Helvetica 15 bold'))
     count = count + 180
     canvas.create_image((50, count), image=img1, tag="smile")
     height = img1.height()
